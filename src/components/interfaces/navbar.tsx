@@ -62,7 +62,7 @@ interface MenuSubLinkProps {
 }
 
 const LOGO = {
-    url: 'https://www.shadcnblocks.com',
+    url: '#',
     src: 'https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg',
     alt: 'logo',
     title: 'Shadcnblocks.com',
@@ -204,9 +204,6 @@ const Navbar = () => {
                                 alt={LOGO.alt}
                                 className="inline-block size-8 invert"
                             />
-                            <span className="text-foreground hidden md:inline-block">
-                                {LOGO.title}
-                            </span>
                         </a>
                         <NavigationMenu className="hidden lg:flex" viewport={false}>
                             <NavigationMenuList className="">

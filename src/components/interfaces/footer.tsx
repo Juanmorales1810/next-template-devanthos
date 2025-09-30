@@ -69,7 +69,7 @@ const defaultLegalLinks = [
 
 const Footer = ({
     logo = {
-        url: 'https://www.shadcnblocks.com',
+        url: '#',
         src: 'https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg',
         alt: 'logo',
         title: 'Shadcnblocks.com',
@@ -77,7 +77,7 @@ const Footer = ({
     sections = defaultSections,
     description = 'A collection of components for your startup business or side project.',
     socialLinks = defaultSocialLinks,
-    copyright = '© 2024 Shadcnblocks.com. All rights reserved.',
+    copyright = '© 2024 All rights reserved.',
     legalLinks = defaultLegalLinks,
 }: Footer7Props) => {
     return (
@@ -95,7 +95,6 @@ const Footer = ({
                                     className="h-8"
                                 />
                             </a>
-                            <h2 className="text-xl font-semibold">{logo.title}</h2>
                         </div>
                         <p className="text-muted-foreground max-w-[70%] text-sm">{description}</p>
                         <ul className="text-muted-foreground flex items-center space-x-6">
